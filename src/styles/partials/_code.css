@@ -1,0 +1,33 @@
+/* Estilos para el bloque de código */
+pre {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+/* Estilos para la barra de conteo de líneas */
+pre .line-count {
+  display: inline-block;
+  width: 32px;
+  text-align: right;
+  padding-right: 8px;
+  color: #666;
+  user-select: none;
+}
+
+/* Estilos para resaltar palabras clave */
+.code-block .keyword {
+  color: #4285f4;
+  font-weight: bold;
+}
+
+.code-block .string {
+  color: #0f9d58;
+}
+

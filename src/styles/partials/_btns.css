@@ -1,0 +1,90 @@
+.btn-link{
+	display: inline-block;
+	text-decoration: none;
+	color: #641ee7;
+	transition: all .5s;
+}
+
+.btn-link::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #641ee7;
+  transition: 0.5s;
+}
+
+.btn-link:hover::after {
+  width: 100%;
+}
+
+
+.btn {
+	background: #641ee7;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	transition: .3s ease all;
+	margin: 3px;
+}
+
+.btn-outline{
+	background: transparent;
+	border: none;
+	border: 2px solid #641ee7;
+	cursor: pointer;
+	color: #641ee7;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	transition: .3s ease all;
+	margin: 3px;
+}
+
+.btn-outline .active{
+	background: #641ee7;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	transition: .3s ease all;
+	margin: 3px;
+}
+	
+.btn:hover {background: #5114c2;}
+.btn-primary{background: var(--btn-primary);color: #fff;}
+.btn-primary:hover{background: #08599b;color: #fff;}
+.btn-secondary{background: var(--btn-secondary);color: #fff;}
+.btn-secondary:hover{background: #0e673e;color: #fff;}
+.btn-cian{background: var(--btn-cian);color: #fff;}
+.btn-cian:hover{background: #0887a1;color: #fff;}
+.btn-orange{background: var(--btn-orange);color: #fff;}
+.btn-orange:hover{background: #bc5b0b;color: #fff;}
+.btn-purpul{background: var(--btn-purpul);color:#fff;}
+.btn-purpul:hover{background: #4f2a92;color:#fff;}
+.btn-indigo{background: var(--btn-indigo);color:#fff;}
+.btn-indigo:hover{background: #4c0fae;color:#fff;}
+.btn-pink{background: var(--btn-pink);color:#fff;}
+.btn-pink:hover{background: #a32966;color:#fff;}
+.btn-tael{background: var(--btn-tael);color:#fff}
+.btn-tael:hover{background: #179670;color:#fff}
+.btn-black{background: var(--btn-dark);color: #fff;}
+.btn-black:hover{background: #303030;color: #fff;}
+.btn-light{background: var(--btn-ligth);color: #000;}
+.btn-light:hover{background: #c2c2c2;color: #000;}
+.btn-warning{background: var(--btn-warning);color: #fff;}
+.btn-warning:hover{background: #e68a00;color: #fff;}
+.btn-danger{background: var(--btn-danger);color: #fff;}
+.btn-danger:hover{background: #da190b;color: #fff;}
+.btn-disabled{pointer-events: none;opacity: 0.5;}

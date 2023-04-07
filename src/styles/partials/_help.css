@@ -1,0 +1,23 @@
+.no-margin { margin: 0 }
+.no-margin-top { margin-top: 0 }
+.no-margin-bottom { margin-bottom: 0 }
+.no-margin-left { margin-left: 0 }
+.no-margin-right { margin-right: 0 }
+
+.stick-top{overflow: hidden;position: fixed; top: 0; width: 100%;}
+.stick-bottom{overflow: hidden;position: fixed; bottom: 0; width: 100%;}
+.stick-left{overflow: hidden;position: fixed; left: 0; width: 100%;}
+.stick-right{overflow: hidden;position: fixed; right: 0; width: 100%;}
+
+
+.margin-bottom {margin-bottom: 20px;}
+.margin-top {margin-top: 20px;}
+
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-rigth {text-align: right;}
+
+.border-top{border-top: 0.5px solid #a3a3a3;}
+.border-bottom{border-bottom: 0.5px solid #a3a3a3;}
+.border-left{border-left: 0.5px solid #a3a3a3;}
+.border-right{border-right: 0.5px solid #a3a3a3;}
